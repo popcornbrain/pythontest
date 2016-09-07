@@ -1,7 +1,8 @@
-#print(900 * 2 * 1.25 + 100 * 1.06)
+all_customers = [22, 32, 52]
+print (all_customers [0])
+print (all_customers [1])
+print (all_customers [2])
 
-#robot_price = 900
-#print(robot_price *2 * 1.25 + 100 * 1.06)
 
 robot_price = 900
 robot_count = 2
@@ -14,3 +15,4 @@ book_tax = 1.06
 print(
 	robot_price * robot_count * robot_tax + book_price * book_count * book_tax
 	)
+
